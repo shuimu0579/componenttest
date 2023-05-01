@@ -1,7 +1,7 @@
 export default {
-  title: "unit-test",
+  title: "componenttest",
   description: "front end testing",
-  base: "/unittest/",
+  base: "/componenttest/",
   themeConfig: {
     logo: "/logo.png",
     sidebar: [
