@@ -9,8 +9,8 @@ const { Layout } = DefaultTheme;
     <template #aside-ads-before>
       <div class="advertising">
         <div>
-          <a href="https://twitter.com/shuimu19">
-            联系我
+          <a href="https://learn.cuixueshe.com/p/t_pc/goods_pc_detail/goods_detail/p_63f3795ee4b06159f73e6452?product_id=p_63f3795ee4b06159f73e6452">
+            课程预售ing
           </a>
         </div>
       </div>
@@ -23,31 +23,13 @@ const { Layout } = DefaultTheme;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
-  padding: 6px;
-  border-radius: 40px;
+  padding: 24px;
+  border-radius: 12px;
+  min-height: 256px;
   text-align: center;
   line-height: 18px;
   font-size: 12px;
   font-weight: 500;
-  background-color: #999;
-  cursor: pointer;
-  animation: buildingWarningMarker 1.5s infinite ease-in-out;
-}
-
-@keyframes buildingWarningMarker {
-  0% {
-    background-color: hsl(126, 41%, 10%);
-    color: hsl(126, 41%, 30%);
-  }
-  50% {
-    background-color: hsl(126, 41%, 30%);
-    color: hsl(126, 41%, 80%);
-  }
-  100% {
-    background-color: hsl(126, 41%, 10%);
-    color: hsl(126, 41%, 30%);
-  }
+  background-color: rgb(25, 25, 29);
 }
 </style>
