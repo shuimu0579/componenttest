@@ -1,7 +1,7 @@
 export default {
-  title: "unitcase",
-  description: "unitcase",
-  base: "/unitcase/",
+  title: "componenttest",
+  description: "componenttest",
+  base: "/componenttest/",
   themeConfig: {
     logo: "/avatar.jpeg",
     sidebar: [
